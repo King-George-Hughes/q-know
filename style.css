@@ -1,5 +1,6 @@
 :root {
   --bg-color: #f0f8ff;
+  --bg-footer: #4f4f4f;
 }
 
 body::before {
@@ -22,6 +23,27 @@ body::before {
 
 .how-it-works {
   background-color: var(--bg-color);
+}
+
+.features {
+  background-color: var(--bg-color);
+}
+
+.icon-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container-img {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
 }
 
 /* Carousel */
