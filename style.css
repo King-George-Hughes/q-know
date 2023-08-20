@@ -123,7 +123,6 @@ body::before {
 .swiper-slide {
   border-radius: 10px;
   text-align: center;
-  font-size: 18px;
   background: #fff;
   display: flex;
   justify-content: center;
