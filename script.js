@@ -43,10 +43,10 @@ const swiper = new Swiper(".swiper", {
 
   // Breakpoints
   breakpoints: {
-    470: {
-      slidesPerView: 1,
-      spaceBetween: 10,
-    },
+    // 470: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 10,
+    // },
     680: {
       slidesPerView: 2,
       spaceBetween: 20,
