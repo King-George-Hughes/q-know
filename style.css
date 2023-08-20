@@ -18,7 +18,7 @@ body::before {
 }
 
 .p-max-width {
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .sldier-height {
@@ -35,6 +35,19 @@ body::before {
 
 .footer {
   background-color: var(--bg-footer);
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+}
+
+.hero-bg-color {
+  background: linear-gradient(
+    0deg,
+    rgba(1, 174, 244, 0.3) 0%,
+    rgba(1, 174, 244, 1) 100%
+  );
 }
 
 .icon-container {
