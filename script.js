@@ -14,3 +14,45 @@ items.forEach((el) => {
     next = next.nextElementSibling;
   }
 });
+
+// Swipper Sider
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  slidesPerView: 3,
+  spaceBetween: 10,
+  direction: "horizontal",
+  loop: true,
+
+  // For Autoplay
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // Breakpoints
+  breakpoints: {
+    470: {
+      slidesPerView: 1,
+    },
+    680: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+  },
+});
