@@ -42,12 +42,12 @@
 
         <!-- Menu List -->
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav me-auto">
+          <ul class="navbar-nav me-auto mt-auto">
             <li class="nav-item">
-              <a href="#learn" class="nav-link">About</a>
+              <a href="#" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#questions" class="nav-link">Pricing</a>
+              <a href="#" class="nav-link">Pricing</a>
             </li>
           </ul>
 
@@ -63,7 +63,7 @@
     <section>
       <div class="container">
         <div class="row gap-4 gap-md-1">
-          <div class="col-lg">
+          <div class="col-lg order-lg-1 order-2">
             <div
               class="w-100 h-100 d-flex align-items-center position-relative"
             >
@@ -73,29 +73,163 @@
                 class="img-fluid"
               />
               <div class="position-absolute">
-                <h1 class="fw-bold">Learn With Us Today Lead Tomorrow</h1>
+                <h1 class="fw-bold display-5 h1-max-width">
+                  Learn With Us Today Lead Tomorrow
+                </h1>
                 <p class="lead">
                   At Quick Knowledge, we partner with various educational
                   institutions to create and produce engaging and exciting
                   learning content based on the various syllabus offered in
                   Ghana.
                 </p>
-                <button
-                  class="btn btn-outline-primary me-2 me-md-3"
-                  type="button"
-                >
-                  Get Started
-                </button>
-                <button class="btn btn-primary" type="button">
-                  Contact Us
-                </button>
+                <div class="mt-5">
+                  <button
+                    class="btn btn-outline-primary me-2 me-md-3"
+                    type="button"
+                  >
+                    Get Started
+                  </button>
+                  <button class="btn btn-primary" type="button">
+                    Contact Us
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg">
-            <div class="w-100 h-100">
-              <img src="assets/banner.jpg" alt="banner img" class="img-fluid" />
+          <div class="col-lg order-lg-2 order-1">
+            <div class="w-100 h-100 rounded-3 overflow-hidden">
+              <img
+                src="assets/banner.jpg"
+                alt="banner img"
+                class="w-100 h-100 object-fit-cover"
+              />
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we provide -->
+    <section class="py-lg-5">
+      <div class="container text-center my-3">
+        <h2 class="fw-bold">What We Provide</h2>
+        <p>All the amazing things we provide and more</p>
+        <div class="row mx-auto my-auto justify-content-center">
+          <div
+            id="recipeCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner" role="listbox">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="col-md-4">
+                  <div class="card p-3 pb-5 mx-lg-3">
+                    <div class="card-body text-start">
+                      <img
+                        src="./assets/abstract-shape-1.png"
+                        class="img-fluid"
+                        width="50"
+                      />
+                      <h5 class="card-title my-3">Student Learning Accounts</h5>
+                      <p class="card-text">
+                        Students can easily signup and navigate the wide range
+                        of content we have on QKnow Edtech in various forms;
+                        Books and articles, Quizzes, Videos, Worksheets and
+                        more.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        src="//via.placeholder.com/500x400/e66?text=2"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-img-overlay">Slide 2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        src="//via.placeholder.com/500x400/7d2?text=3"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-img-overlay">Slide 3</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        src="//via.placeholder.com/500x400?text=4"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-img-overlay">Slide 4</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        src="//via.placeholder.com/500x400/aba?text=5"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-img-overlay">Slide 5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <div class="card-img">
+                      <img
+                        src="//via.placeholder.com/500x400/fc0?text=6"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="card-img-overlay">Slide 6</div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <a
+              class="carousel-control-prev bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+            <a
+              class="carousel-control-next bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
           </div>
         </div>
       </div>
@@ -106,5 +240,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
