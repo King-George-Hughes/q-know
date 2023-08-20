@@ -58,6 +58,11 @@ body::before {
   height: 30px;
 }
 
+.trusted-logo {
+  width: 100%;
+  max-width: 250px;
+}
+
 /* Carousel */
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
