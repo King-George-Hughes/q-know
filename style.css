@@ -17,6 +17,10 @@ body::before {
   max-width: 500px;
 }
 
+.p-max-width {
+  max-width: 600px;
+}
+
 .sldier-height {
   height: 100%;
 }
