@@ -18,7 +18,7 @@ items.forEach((el) => {
 // Swipper Sider
 const swiper = new Swiper(".swiper", {
   // Optional parameters
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 10,
   direction: "horizontal",
   loop: true,
