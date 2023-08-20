@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #f0f8ff;
+}
+
 body::before {
   display: block;
   content: "";
@@ -10,6 +14,14 @@ body::before {
 
 .h1-max-width {
   max-width: 500px;
+}
+
+.sldier-height {
+  height: 100%;
+}
+
+.how-it-works {
+  background-color: var(--bg-color);
 }
 
 /* Carousel */
