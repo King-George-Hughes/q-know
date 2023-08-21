@@ -121,4 +121,8 @@ body::before {
     width: 50%;
     margin: 0 auto;
   }
+
+  .my-centered-text {
+    text-align: center;
+  }
 }
