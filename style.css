@@ -6,7 +6,7 @@
 body::before {
   display: block;
   content: "";
-  height: 85px;
+  height: 55px;
 }
 
 .object-fit-cover {
