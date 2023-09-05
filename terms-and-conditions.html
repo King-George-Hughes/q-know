@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q Know</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Owl Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custome Colors -->
+    <link rel="stylesheet" href="my-colors/css/primary-color.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="nav navbar navbar-expand-lg bg-white navbar-light py-3 fixed-top"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="assets/logo.jpeg"
+            alt="logo"
+            class="img-fluid logo"
+            width="150px"
+          />
+        </a>
+
+        <!-- Toggle Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon small"></span>
+        </button>
+
+        <!-- Menu List -->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav me-auto mt-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="pricing.html" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+
+          <hr class="dropdown-divider" />
+          <div class="my-4 my-md-0">
+            <button class="btn btn-outline-primary me-2 me-md-3" type="button">
+              login
+            </button>
+            <button class="btn btn-primary" type="button">Sign Up</button>
+          </div>
+          <hr class="dropdown-divider" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg-color hero">
+      <div
+        class="w-100 h-100 d-flex align-items-center justify-content-center position-relative"
+      >
+        <img
+          src="assets/pricing-bg.jpg"
+          alt="banner-bg"
+          class="w-100 h-100 object-fit-cover"
+        />
+        <div
+          class="position-absolute text-light text-center px-2"
+          style="z-index: 1"
+        >
+          <h2 class="display-5 fw-bold">Terms & Conditions</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="accordion container" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button text-dark fw-bold"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              TABLE OF CONTENTS
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ol>
+                <li class="mb-3">
+                  <a href="#intro" class="text-decoration-none text-black-50"
+                    >INTRODUCTION</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#min-age" class="text-decoration-none text-black-50"
+                    >MINIMUM AGE
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#aot" class="text-decoration-none text-black-50"
+                    >ACCEPTANCE OF TERMS</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a href="#so" class="text-decoration-none text-black-50"
+                    >SERVICES OVERVIEW
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#fee" class="text-decoration-none text-black-50"
+                    >FEES
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#userc" class="text-decoration-none text-black-50"
+                    >USER’S CONDUCT
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#uos" class="text-decoration-none text-black-50"
+                    >USE OF SERVICES
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#ip" class="text-decoration-none text-black-50"
+                    >INTELLECTUAL PROPERTY
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#ct" class="text-decoration-none text-black-50"
+                    >CHANGED TERMS
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#tnn" class="text-decoration-none text-black-50"
+                    >TERMINATION
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#mapas" class="text-decoration-none text-black-50"
+                    >MEMBER ACCOUNT, PASSWORD, AND SECURITY
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#nrs" class="text-decoration-none text-black-50"
+                    >NOTICES REGARDING SOFTWARE, DOCUMENTS, AND SERVICES
+                    AVAILABLE ON THIS WEBSITE
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#qet" class="text-decoration-none text-black-50"
+                    >QKNOW EDUCATION TAB
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#ex" class="text-decoration-none text-black-50"
+                    >EXCLUSIONS
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#eoc" class="text-decoration-none text-black-50"
+                    >ELIGIBILITY OF COVER
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#mdmp" class="text-decoration-none text-black-50"
+                    >MDM POLICY
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#ga" class="text-decoration-none text-black-50"
+                    >GEOGRAPHICAL AREA
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#rp" class="text-decoration-none text-black-50"
+                    >RETURN POLICY
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#msl" class="text-decoration-none text-black-50"
+                    >MISCELLANEOUS
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#abq" class="text-decoration-none text-black-50"
+                    >ASK BY QKNOW
+                  </a>
+                </li>
+                <li class="mb-3">
+                  <a href="#contact" class="text-decoration-none text-black-50"
+                    >CONTACT US
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="mb-5">
+          <h2 class="h3" id="intro">INTRODUCTION</h2>
+          <p class="text-muted">
+            <a href="https://qknowedtech.com/" target="_blank"
+              >www.qknowedtech.com</a
+            >
+            (“QKnow,” “Website,” “We,” “Us,” or “Our”) is a platform built to
+            host, manage, and deploy educational content to learners via
+            smartphones, tablets, and computers with marginal concern for
+            internet limitations and costs.
+          </p>
+          <p class="text-muted">
+            The Website is intended to identify and promote the range of
+            services We can offer to Our clients and to provide details as to
+            how We can be contacted. For the purpose of these Terms of Use
+            (“Terms,” or “Agreement”), along with any amendments, “You,” “Your,”
+            or “User” refer to the person visiting, accessing, browsing through,
+            and/or using Our Website/Application (“Services”) or using any
+            storage or transmitting device (“Products”) provided by us at any
+            point in time.
+          </p>
+          <p class="text-muted">
+            Please read these Terms and Our privacy notice (“<strong
+              >Privacy Notice</strong
+            >”) concerning the access and use of Our Services and Products
+            carefully before using the Services or Products. If You do not agree
+            with the Terms or the Privacy Notice, please do not use Our Services
+            or avail of the Products. In the event of any discrepancy between
+            the Terms and any other policies concerning the Services or
+            Products, the provisions of the Terms shall prevail.
+          </p>
+          <p class="text-muted">
+            Also, note that the headings of each section in these Terms are only
+            to organize the various provisions under these Terms in an orderly
+            manner. These headings shall not be used to interpret the provisions
+            contained under them in any manner. Further, the headings have no
+            legal or contractual value.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="min-age">MINIMUM AGE</h2>
+          <p class="text-muted">
+            Our Services and Products are only available to persons above the
+            age of 18, if You are below this age, You must obtain permission
+            from Your parent(s) or guardian before accessing this Website. By
+            signing up on this Website, You warrant that You have obtained such
+            permission.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="aot">ACCEPTANCE OF TERMS</h2>
+          <p class="text-muted">
+            By signing up for Our services, You accept and agree to be bound and
+            abide by these Terms and Our Privacy Notice. If You do not want to
+            agree to these Terms and/or the Privacy Notice, You must not sign up
+            for Our services. If you are acting on behalf of a minor, the minor
+            is also bound by these Terms. You are, therefore, advised to read
+            these Terms carefully, as Your use, access, or browsing of Our
+            Services or Products, with or without payment and with or without a
+            subscription, through any means shall signify Your acceptance of the
+            Terms and Your agreement to be legally bound by the same.
+          </p>
+          <p class="text-muted">
+            When using services offered through QKnow’s third-party service
+            providers, such as email, You will be subject to Terms posted by
+            these third-party service providers. Registration for any of Our
+            Services or Products signifies Your agreement to those additional
+            Terms.
+          </p>
+          <p class="text-muted">
+            You may receive a written copy of this Agreement by emailing us at:
+            <a
+              href="mailto:info@qknowedtech.com"
+              class="text-decoration-none text-muted"
+              ><strong>info@qknowedtech.com</strong></a
+            >
+            with the Subject: Request for Terms of Service Agreement. In
+            addition, when using particular QKnow Services, You and QKnow shall
+            be subject to any posted guidelines or rules applicable to such
+            services that may be posted from time to time. All such guidelines
+            or rules are hereby incorporated by reference into the Terms.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="so">SERVICES OVERVIEW</h2>
+          <p class="text-muted">
+            Our Website/Application is a platform where Users can gain access to
+            educational materials. Once Users register themselves via the
+            Website, they gain access to Our materials on a freemium basis,
+            which can be converted to premium at any time. A User can subscribe
+            to one of two plans: 3 months(NonGhanaians and Ghanaians), 6 months,
+            or 12 months, with the option to pay the latter as an upfront,
+            single payment.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="fee">FEES</h2>
+          <p class="text-muted">
+            Where you pay by Bank transfer, cheque, or other options that
+            require manual account activation, your subscription will be
+            activated and come into effect as soon as you provide details of the
+            associated QKnow(s) account or after 30 days, whichever comes first.
+          </p>
+          <p class="text-muted">
+            Our services are billed on a subscription basis (the
+            “Subscription”). This means that once Your Subscription expires, You
+            will no longer have access to Our materials. To renew your
+            subscription, send a request to Us via email to
+            <a
+              href="mailto:info@qknowedtech.com"
+              class="text-decoration-none text-muted"
+              ><strong>info@qknowedtech.com</strong></a
+            >. If you provide credit or debit card information to pay for the
+            Service, you represent and warrant that You are authorized to supply
+            such information and that You authorize Us to charge that payment
+            method on a subscription basis to pay the fees as they come due.
+          </p>
+          <p class="text-muted">
+            Every effort has been made to ensure accurate pricing of Our
+            Products— featured on Our Website or offered via some other
+            means—but please be aware that Our prices are subject to change. If
+            a Product is ordered, and the listed price has changed, You will be
+            notified before processing Your Order. You agree to pay all
+            applicable taxes relating to Your use of Our Services or Products.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="userc">USER’S CONDUCT</h2>
+          <p class="text-muted">
+            A User shall use this Website for lawful purposes only. Accordingly,
+            a User shall not post, send or transmit any material which violates
+            or infringes in any way upon the rights of others or perform any act
+            that is unlawful, threatening, abusive, defamatory, invasive of
+            privacy or publicity rights, vulgar, obscene, profane or otherwise
+            objectionable, which encourages conducts that would constitute a
+            criminal offense, give rise to civil liability or otherwise violate
+            any law.
+          </p>
+          <p class="text-muted">
+            Any conduct by a User that, at QKnow’s sole discretion, restricts or
+            inhibits any other User from using or enjoying this Website is
+            prohibited. Accordingly, no User shall use this Website to advertise
+            or perform any commercial solicitation, including, but not limited
+            to, the solicitation of Users to become subscribers of other online
+            information services that are in competition or likely to compete
+            with QKnow.
+          </p>
+          <p class="text-muted">
+            Note that QKnow reserves the right to deny You access to any of the
+            Services or Products or any portion thereof without notice for the
+            following reasons:
+          </p>
+          <ol class="text-muted">
+            <li>
+              Immediately by QKnow for any unauthorized access or use by You
+            </li>
+            <li>
+              Immediately by QKnow if You assign or transfer (or attempt the
+              assignment or transfer of any rights granted to You under this
+              Agreement
+            </li>
+            <li>
+              Immediately, upon a report of Your violation of this Agreement or
+              any other policy accessible on Our platforms
+            </li>
+          </ol>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="uos">USE OF SERVICES</h2>
+          <p class="text-muted">
+            Your use of Our Product, Website, Application, and Services is
+            solely for Your personal and non-commercial use. Any use of the
+            Application, Website, Services, or Products or their contents other
+            than for personal purposes is prohibited. The following restrictions
+            apply to Your personal and noncommercial use of Our Application,
+            Website, Products, and/or Services:
+          </p>
+          <ul class="text-muted">
+            <li>
+              Use any material or information, including images or photographs,
+              which are made available through the Services in any manner that
+              infringes any copyright, trademark, patent, trade secret, or other
+              proprietary rights of the owner.
+            </li>
+            <li>
+              Upload files that contain viruses, malware, worms, corrupted
+              files, or any other similar software or programs that may damage
+              the operation of our systems.
+            </li>
+            <li>
+              Falsify or delete any copyright management information, such as
+              author attributions, legal or other proper notices indicating the
+              moral intellectual property right of another, or proprietary
+              designations or labels of the origin or source of software or
+              other material contained in a file that is uploaded to Our
+              Website/Application.
+            </li>
+            <li>
+              Use deep links, page-scrape, robots, spiders, or other automatic
+              devices, programs, algorithms or methodology, or any similar or
+              equivalent manual process, to increase traffic to the
+              Application/Website, to access, acquire, copy, or monitor any
+              portion of the Application/Website, or in any way reproduce or
+              circumvent the navigational structure or presentation of the
+              Application/Website, or any content, to obtain or attempt to
+              obtain any content, documents or information through any means not
+              specifically made available through the Application/ Website.
+            </li>
+            <li>
+              Restrict or inhibit any other User from using and enjoying the
+              Services or Products.
+            </li>
+            <li>
+              Violate any code of conduct or other guidelines, which may apply
+              to any particular Service or Product.
+            </li>
+            <li>Violate any applicable laws or regulations.</li>
+            <li>
+              Use, download, or otherwise copy, or provide (whether or not for a
+              fee) to a person or entity any directory of Users of the Services
+              or other User or usage information or any portion thereof.
+            </li>
+          </ul>
+          <p class="text-muted">
+            We reserve the right to review posts, feedback, and updates posted
+            to this Website by any User and to remove any materials that are
+            posted for a prohibited purpose, as well as suspend that User.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="ip">INTELLECTUAL PROPERTY</h2>
+          <p class="text-muted">
+            All present and future rights in and to trade secrets, patents,
+            copyrights, trademarks, service marks, know-how, and other
+            proprietary rights of any type under the laws of any governmental
+            authority, domestic or foreign, including rights in and to all
+            applications and registrations relating to the services provided by
+            this Website (the “Intellectual Property Rights”) shall, vest in
+            QKnow.
+          </p>
+          <p class="text-muted">
+            The content of this Website includes but is not limited to computer
+            programs, technology, data file, techniques, algorithms, methods,
+            codes, logos, marks, trade secrets, designs, text, graphics,
+            pictures, audio and video files, other data or copyrightable
+            materials or content, and their selection and arrangement, are
+            protected as a collective work or compilation under Ghanaian
+            copyright and other relevant conventions and treaties.
+          </p>
+          <p class="text-muted text-danger">
+            All individual content, modules, articles, and other elements,
+            including all software available on this Website or used to create
+            and operate this Website, are and remain the property of QKnow,
+            excluding third-party materials used to create content on our
+            website, such as those obtained from https://www.istockphoto.com/
+            (specifically, credit goes to the following artists: Design Cells,
+            Tonaquatic, 7activestudio, Tonaquatic, Composition, Zhengzaishuru,
+            3drenderings, Studiocasper, Blueringmedia, Jarun011, 221A, Ttsz,
+            Jack0m, Sabelskaya, Vectorpower, IVANVIEITO.
+          </p>
+          <p class="text-muted">
+            All trademarks and service marks, whether registered or
+            unregistered, as well as product names and company names or logos,
+            displayed or mentioned on this Website are the property of their
+            respective owners. A User may only use such marks with the prior
+            written consent of the owner.
+          </p>
+          <p class="text-muted">
+            Reference to any products, services, processes, or other
+            information, by trade name, trademark, manufacturer, supplier, or
+            otherwise does not constitute or imply endorsement, sponsorship, or
+            recommendation of it by QKnow.
+          </p>
+          <p class="text-muted">
+            You agree to abide by all applicable copyright laws, as well as any
+            additional copyright notices or restrictions contained on this
+            Website. You acknowledge that this Website is developed, compiled,
+            prepared, revised, selected, and arranged by QKnow and its partners
+            and constitutes their intellectual property. You agree to protect
+            the proprietary rights of QKnow and all others having rights in this
+            Website during and after the term of these Terms and to comply with
+            all reasonable written requests made by QKnow or its suppliers and
+            licensors of contents (“Affiliates”).
+          </p>
+          <p class="text-muted">
+            In a bid to protect Your copyright as well as the copyright of other
+            Users, You agree to notify QKnow in writing promptly upon becoming
+            aware of any unauthorized access or use of this Website by any
+            individual or entity.
+          </p>
+          <p class="text-muted">
+            All present and future rights in and title to this Website
+            (including the right to exploit this Website and any portions of it
+            over any present or future technology) are reserved to QKnow for its
+            exclusive use. Except as specifically permitted by these Terms, You
+            may not copy or make any use of this Website or any portion of it,
+            without prior written approval from QKnow.
+          </p>
+          <p class="text-muted">
+            You shall not upload, post or otherwise make available on this
+            Website, any content protected by copyright, trademark, or other
+            proprietary rights without the express permission of the owner of
+            the copyright, trademark, or other proprietary right and the burden
+            of determining that any material is not protected by copyright rests
+            with You. You shall be solely liable for any damage resulting from
+            any infringement of copyrights, proprietary rights, or any other
+            harm resulting from such a submission. By providing any material to
+            this Website, You automatically grant or warrant that the owner of
+            such material has expressly granted You a royalty-free, perpetual,
+            irrevocable right and license to use, reproduce, modify, adapt,
+            publish, translate, and distribute such material (in whole or in
+            part) worldwide and/or to incorporate it in other works in any form,
+            media or technology now known or to be developed in the future for
+            the full term of any copyright that may exist in such material.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="ct">CHANGED TERMS</h2>
+          <p class="text-muted">
+            QKnow reserves the right to modify these Terms at any time. Such
+            modifications will become part of this Agreement and will be
+            effective once posted by QKnow on the Website. If a revision is
+            material, we will notify You via electronic mail or via a pop-up or
+            redirection when You log in to Our Website. Still, we recommend that
+            You should review the Website and these Terms from time to time.
+            (The most current version of the Terms can be reviewed by clicking
+            on the “Terms of Use” hypertext link located at the bottom of Our
+            Web pages.) Your continued use of Our Services means that You accept
+            any new or modified Terms that we come up with.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="tnn">TERMINATION</h2>
+          <p class="text-muted">
+            You may terminate or suspend Your subscription at any time through
+            Your profile management page. Upon termination, We will deactivate
+            Your account and delete all the materials uploaded or transmitted to
+            Us in the course of Your use of Our Products and Services. Once We
+            confirm termination, You will not be charged for the next
+            subscription and will not be entitled to a refund of any money
+            already paid for any billing period, except where such request was
+            made within the allowed refund request window.
+          </p>
+          <p class="text-muted">
+            We may terminate Your subscription at the end of Your billing period
+            by providing at least 14 days written notice to You. Additionally,
+            QKnow may terminate these Terms at any time before the end of a
+            billing period and without prior notice if:
+          </p>
+          <ol class="text-muted">
+            <li>You are in breach of the terms of these Terms;</li>
+            <li>
+              You are unable to pay your subscription fees for 30 days after the
+              due date;
+            </li>
+            <li>We are investigating suspected misconduct by You;</li>
+            <li>
+              You have used the Services in a way that causes legal liability to
+              Us or disrupts the use of Our Services by other users;
+            </li>
+            <li>
+              You use this Website for any of the prohibited purposes or upload
+              any of the prohibited materials.
+            </li>
+          </ol>
+          <p class="text-muted">
+            If We limit, suspend, or terminate Our services, We will endeavor to
+            give You advance notice and an opportunity to export a copy of Your
+            Content from Our Website. However, in the event of a violation of
+            the provisions of these Terms or any applicable law, We may decide
+            that We need to take immediate action to suspend Your account
+            without notice.
+          </p>
+          <p class="text-muted">
+            We will use commercially reasonable efforts to narrow the scope and
+            duration of any limitation or suspension implemented in line with
+            these Terms and as needed to resolve the issue that prompted such
+            action. QKnow may, subject to the provision of the law as to
+            retention or right to be forgotten, retain Your Content upon
+            termination of Service, but We are not under any obligation to do
+            so.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="mapas">MEMBER ACCOUNT, PASSWORD, AND SECURITY</h2>
+          <p class="text-muted">
+            We are committed to safeguarding the privacy of Your information.
+            When You sign up for Our services, We require that You create an
+            account by providing Us with current, complete, and accurate
+            information as prompted by the applicable registration form.
+          </p>
+          <p class="text-muted">
+            We have measures in place designed to protect Your information
+            against unauthorized access. But be aware that although we endeavour
+            to provide reasonable security for the information we collect and
+            process, we recognize that no security system can prevent all
+            potential security breaches; thus, we cannot guarantee the absolute
+            safety of Your information.
+          </p>
+          <p class="text-muted">
+            Please note that You are entirely responsible for any activities
+            that occur under Your account and You shall promptly notify Us of
+            any unauthorized use of Your account or any other breach of
+            security. QKnow will not be liable for any loss that You may incur
+            as a result of third-party access, either with or without Your
+            knowledge.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="nrs">
+            NOTICES REGARDING SOFTWARE, DOCUMENTS, AND SERVICES AVAILABLE ON
+            THIS WEBSITE
+          </h2>
+          <ol class="text-muted">
+            <li>
+              The User expressly agrees that the use of this Website is at the
+              User’s sole risk. Neither QKnow, its affiliates nor any of Our
+              respective employees, agents, third-party service providers, or
+              licensors warrant that this Website will be uninterrupted or
+              error-free; nor do they make any warranty as to the results that
+              may be obtained from the use of this Website, or as to the
+              accuracy, reliability or content of any information and service
+              provided through this Website.
+            </li>
+            <li>
+              This Website is provided on an “as is” basis without warranties of
+              any kind, either express or implied, including, but not limited
+              to, warranties of title or implied warranties of merchantability
+              or fitness for any particular purpose, other than those warranties
+              which are implied by and incapable of exclusion, restriction or
+              modification under the laws applicable to these Terms.
+            </li>
+            <li>
+              This disclaimer of warranty and limitation of liability applies to
+              any damages or injury caused by any failure of performance, error,
+              omission, interruption, deletion, defect, delay in operation or
+              transmission, computer virus, communication line failure, theft or
+              destruction, or unauthorized access to, alteration of, or use of
+              record, whether for breach of contract, tortious behaviour,
+              negligence, or under any other cause of action.
+            </li>
+            <li>
+              We disclaim liability for any errors or inaccuracies which may
+              occur or be contained in any material despite our best effort to
+              offer the current and correct information in the preparation of
+              Our Application/Website/Services/Products. Neither We nor any
+              third parties provide any warranty or guarantee as to the
+              accuracy, timeliness, performance, completeness, or suitability of
+              the information and materials found or offered on the
+              Application/Website/Services/Products for any particular purpose.
+            </li>
+            <li>
+              We reserve the right to remove, review, edit, or delete any
+              content at any time. Also, certain contents in the
+              Application/Services/Website/Products may contain opinions and
+              views. QKnow shall not be responsible for such opinions or any
+              claims resulting from them. Further, QKnow makes no warranties or
+              representations whatsoever regarding the quality, content,
+              completeness, or adequacy of such information and data.
+            </li>
+            <li>
+              We may contact Our Users through SMS, email, and call, to give
+              information about Our Products as well as notifications on various
+              important updates and/or to seek permission for a demonstration of
+              Our products. You agree to receive these periodic messages.
+            </li>
+            <li>
+              7. Upon registration through any means whatsoever, QKnow may
+              contact You through the registered mobile number or e-mail or any
+              other mobile number or contact number or email provided by You to
+              enable the effective provision of Our Services. The User expressly
+              permits QKnow to contact them and the student(s) utilizing the
+              Services, through the above-mentioned means at any time
+              post-registration.
+            </li>
+            <li>
+              QKnow’s Products and/or Services are compatible only with certain
+              devices/tablets/instruments/hardware. QKnow shall not be obligated
+              to provide workable products and/or services for any instruments
+              that are not recognized by QKnow or those instruments that may be
+              purchased from any third party which are not compatible with
+              QKnow’s products and services. Also, You agree that any defect
+              relating to any devices/tablets/instruments/hardware used to
+              access Our Services or Products shall be reported to the
+              manufacturer whose details shall be specified on the packaging and
+              QKnow shall not be responsible for such defect in any manner.
+            </li>
+            <li>
+              Minors, un-discharged, or insolvent persons are not eligible to
+              register for Our products or Services. Where a minor wish to use
+              Our products or Services, such use shall be made available to the
+              minor by his/her legal guardian or parents, who has agreed to
+              these Terms. It is assumed that a minor who utilizes Our Services
+              has obtained their legal guardian’s or parent’s consent and that
+              such use is made available by the legal guardian or parents. QKnow
+              will not be responsible for any consequence that arises as a
+              result of misuse of any kind of Our Application or any of Our
+              products or Services that may occur by any person including a
+              minor registering for the Services/Products provided. Where it is
+              discovered that a User is under the age of 18 (eighteen) years,
+              QKnow reserves the right to terminate the User’s subscription
+              and/or refuse to provide the User with access to the Products or
+              Services.
+            </li>
+          </ol>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3" id="msl">MISCELLANEOUS</h2>
+          <ol class="text-muted">
+            <li>
+              <strong>Force majeure:</strong> We shall not be responsible for
+              any failure or delay in performance due to circumstances beyond
+              Our control, including, without limitation, acts of God, war,
+              riot, acts of civil or military authorities, fire, floods,
+              accidents, service outages resulting from equipment and/or
+              software failure and/or telecommunications failures, power
+              failures, network failures, failures of third-party service
+              providers (including providers of internet services and
+              telecommunications). If You are affected by any such event, You
+              shall notify Us within a maximum of seven (7) days from the day
+              You became aware. The performance of these Terms shall then be
+              suspended for as long as any such event shall prevent Us from
+              performing Our obligations under these Terms.
+            </li>
+            <li>
+              <strong>Third-Party Links:</strong> Third-Party links will take
+              You out of this Website. The linked websites are not under the
+              control of QKnow and We are not responsible for the contents of
+              any linked website or any link contained in a linked website, or
+              any changes or updates to such Websites. QKnow provides these
+              links to You only as a convenience, and the inclusion of any link
+              does not imply endorsement by QKnow of the third-party website.
+            </li>
+            <li>
+              <strong>Applicable Law:</strong> These Terms shall be governed by
+              and construed by the laws of the Republic of Ghana.
+            </li>
+            <li>
+              <strong>Indemnification:</strong> User agrees to defend, indemnify
+              and hold harmless QKnow, its affiliates, and their respective
+              directors, officers, employees, and agents from and against all
+              claims and expenses, including attorneys’ fees, arising out of the
+              use of QKnow by User or User’s Account.
+            </li>
+            <li>
+              <strong>References:</strong> The companies, organizations,
+              products, domain names, email addresses, logos, people, and events
+              depicted herein are fictitious. No association with any real
+              company, organization, product, domain name, e-mail address, logo,
+              person, or event is intended or should be inferred.
+            </li>
+            <li>
+              <strong>Entire Agreement:</strong> These terms and conditions,
+              together with Our Privacy Notice constitute the entire agreement
+              between You and Us about Your use of Our website and supersede all
+              previous agreements in respect of Your use of this Website.
+            </li>
+          </ol>
+        </div>
+
+        <div class="mb-5">
+          <h2 class="h3">CHILDREN'S PRIVACY</h2>
+          <p class="text-muted">
+            The Company is strongly committed to protecting the safety and
+            privacy of children who use the Services. We do not knowingly
+            collect personal information online from children under 16 without
+            consent from the Authorized Person. The Company acknowledges and
+            agrees that when administered in a school setting, the school's
+            ability to consent for the parent is limited to the educational
+            context – where an operator collects personal information from
+            children for the use and benefit of the school, and for no other
+            commercial purpose. The Company does not use personally identifiable
+            information for any other commercial purpose. When provided by an
+            Authorized Person, we may receive some or all of the personally
+            identifiable information which the parent, guardian, or Authorized
+            Person has voluntarily submitted. Any information submitted by
+            children and adults, whether it would be considered personally
+            identifiable information or not, is treated by the Company with the
+            same safeguards as personally identifiable information. An
+            Authorized Person who has given the Company permission to collect
+            and use a child's personal information can modify, update, correct a
+            child's information, or discontinue further collection or use of a
+            child's information.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div
+        class="container d-flex flex-column flex-lg-row align-content-center justify-content-center justify-content-lg-between my-2"
+      >
+        <div
+          class="w-100 d-flex d-lg-block flex-column align-items-center justify-content-center"
+        >
+          <img
+            src="https://qknowedtech.com/img/v2/logo.png"
+            alt="logo"
+            width="150"
+          />
+          <p class="text-light mt-4 lead">
+            Copyright @2023 All rights reserved
+          </p>
+        </div>
+        <div
+          class="w-100 d-flex flex-column align-items-center align-items-lg-end justify-content-center mt-3 mt-lg-0"
+        >
+          <p class="text-light my-3 lead text-sm-center">
+            Follow us on social media
+          </p>
+
+          <div
+            class="d-flex align-items-center justify-content-start justify-content-md-center"
+          >
+            <div
+              class="footer-icon-container rounded-circle"
+              style="background-color: #6ebdff; margin-right: 16px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-facebook"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </div>
+
+            <div
+              class="footer-icon-container rounded-circle"
+              style="background-color: #ce5038; margin-right: 16px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-twitter"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                ></path>
+              </svg>
+            </div>
+
+            <div
+              class="footer-icon-container rounded-circle"
+              style="background-color: #f2ad12"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-instagram"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 32,
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
